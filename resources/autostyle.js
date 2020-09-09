@@ -7,7 +7,9 @@ require(
             // jupyter.actions.call('jupyter-notebook:run-all-cells-below');
             // jupyter.actions.call('jupyter-notebook:save-notebook');
 
-            $("head").append("<link rel='stylesheet' id='extracss' href='/resources/style.css' type='text/css' />");
+            $("head").append("<link rel='stylesheet' id='extracss' href='./resources/style.css' type='text/css' />");
         }
     )}
 );
+
+$("head").append("<link rel='stylesheet' id='extracss' href='./resources/style.css' type='text/css' />");
